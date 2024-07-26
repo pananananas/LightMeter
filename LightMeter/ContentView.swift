@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  LightMeter
-//
-//  Created by Eryk Wójcik on 25/07/2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
