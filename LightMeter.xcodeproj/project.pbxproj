@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C835D6A32C53AFC7009E7874 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C835D6A22C53AFC7009E7874 /* CameraService.swift */; };
+		C835D6A52C53B44D009E7874 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C835D6A42C53B44D009E7874 /* CameraView.swift */; };
+		C835D6A72C53B981009E7874 /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C835D6A62C53B981009E7874 /* CustomCameraView.swift */; };
 		C8F1D8A72C52E3B4009E377F /* LightMeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F1D8A62C52E3B4009E377F /* LightMeterApp.swift */; };
 		C8F1D8A92C52E3B4009E377F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F1D8A82C52E3B4009E377F /* ContentView.swift */; };
 		C8F1D8AB2C52E3B5009E377F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F1D8AA2C52E3B5009E377F /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C835D6A22C53AFC7009E7874 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		C835D6A42C53B44D009E7874 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		C835D6A62C53B981009E7874 /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
 		C8F1D8A32C52E3B4009E377F /* LightMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F1D8A62C52E3B4009E377F /* LightMeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMeterApp.swift; sourceTree = "<group>"; };
 		C8F1D8A82C52E3B4009E377F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 			children = (
 				C8F1D8A62C52E3B4009E377F /* LightMeterApp.swift */,
 				C8F1D8A82C52E3B4009E377F /* ContentView.swift */,
+				C835D6A62C53B981009E7874 /* CustomCameraView.swift */,
+				C835D6A22C53AFC7009E7874 /* CameraService.swift */,
+				C835D6A42C53B44D009E7874 /* CameraView.swift */,
 				C8F1D8AA2C52E3B5009E377F /* Assets.xcassets */,
 				C8F1D8AC2C52E3B5009E377F /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C835D6A32C53AFC7009E7874 /* CameraService.swift in Sources */,
 				C8F1D8A92C52E3B4009E377F /* ContentView.swift in Sources */,
+				C835D6A72C53B981009E7874 /* CustomCameraView.swift in Sources */,
 				C8F1D8A72C52E3B4009E377F /* LightMeterApp.swift in Sources */,
+				C835D6A52C53B44D009E7874 /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
